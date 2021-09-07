@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.sarojkushmi.recepi">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PicShare">
+        <activity android:name="ca.sarojkushmi.recepi.ui.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.EnterEmailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.EnterNamePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.AddProfilePhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.ConfirmPhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.SearchAccountsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.FindAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.PickUsernameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.NewPostActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.UserPostViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.ProfileSearchResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ca.sarojkushmi.recepi.ui.activities.SearchedAccountPostViewActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
